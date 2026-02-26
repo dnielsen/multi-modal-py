@@ -1,0 +1,5 @@
+openvino_genai
+openvino
+pillow # PIL
+numpy
+flask

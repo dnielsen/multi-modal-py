@@ -3,3 +3,4 @@ openvino
 pillow # PIL
 numpy
 flask
+flask-cors

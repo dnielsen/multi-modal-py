@@ -1,4 +1,4 @@
-## Multi-Modal Py
+## Multimodal Python app with React frontend
 
 The simple demo app demonstrates Visual Question Answering (VQA) using a VLM (Vision Language Model). A VLM is a multimodal AI system that combines computer vision encoders with Large Language Models (LLMs) to understand and analyze both images and text. Specifically, the VLM maps visual features (people, places, things, activities, etc.) in the image into a language model's embedding space, allowing the model to "see" and interpret visual content. This app allows you to ask a question about an image, or just ask a question by itself.  
 

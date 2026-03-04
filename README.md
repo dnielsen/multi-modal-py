@@ -1,14 +1,19 @@
-Multi-modal chatbot requirements:
+The simple demo app demonstrates Visual Question Answering (VQA) using a VLM (Vision Language Model). A VLM is a multimodal AI system that combines computer vision encoders with Large Language Models (LLMs) to understand and analyze both images and text. Specifically, the VLM maps visual features (people, places, things, activities, etc.) in the image into a language model's embedding space, allowing the model to "see" and interpret visual content.
+
+Python and TypeScript:
+- The backend is implemented in Python/Flask using the OpenVino supported Phi-3.5-vision-instruct-int4-ov model running on an Intel CPU.
+- The frontend uses Vite/React/TypeScript.
 
 ## Chat features:
-- Image upload (.jpg, .png)
-- Text in responsive UI: Vite/React
-- Incremental responses
+- Supports both text input and image upload (.jpg, .png)
+- Responsive UI: Streaming not implimented yet
+- Incremental responses: Frontend only. No backend memory yet
+
 ## Model details:
-- Supports Intel Core i7
-- Memory footprint: 16 GB
-- Minmal Latency: 16GB memory, 2015 CPU
-- Output quality: Phi-3.5-vision-instruct-int4-ov 
+- Uses OpenVino to support models running on CPU
+- Tested on 2015 Macbook with Intel Core i7
+- Minmal Latency: Currently ~ 50-70 seconds on my laptop
+- Output quality: not measured
 - Model selection rational: smallest VLM supported by openvino
 
 ## Example Questions: 

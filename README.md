@@ -13,7 +13,7 @@ Python and TypeScript:
 
 ## Model details:
 - Uses OpenVino to support models running on CPU. Currently using [Phi-3.5-vision-instruct-int4-ov](https://huggingface.co/OpenVINO/Phi-3.5-vision-instruct-int4-ov)
-- Tested on 2015 Macbook with Intel Core i7
+- Tested on 2015 Macbook Pro with Intel Core i7, and 16 GB of Memory
 - Minmal Latency: Currently ~ 50-70 seconds on my laptop
 - Output quality: not measured
 - Model selection rational: smallest VLM supported by openvino

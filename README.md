@@ -4,7 +4,7 @@ The simple demo app demonstrates Visual Question Answering (VQA) using a VLM (Vi
 
 Python and TypeScript:
 - The backend is implemented in Python/Flask using the OpenVino supported [Phi-3.5-vision-instruct-int4-ov](https://huggingface.co/OpenVINO/Phi-3.5-vision-instruct-int4-ov) model running on an Intel CPU.
-- The frontend uses Vite/React/TypeScript.
+- The frontend uses [Vite](https://vite.dev/guide/) to scaffold with React & TypeScript.
 
 ## Chat features:
 - Supports both text input and image upload (.jpg, .png)
